@@ -33,9 +33,17 @@
 >> ![image](https://github.com/user-attachments/assets/745fa29b-b2ba-4b68-a060-1bc4e2e62651)
 >>
 >> 5. 정보를 입력하고 미리보기를 누르면 XML파일이 나타날 것이다.
->> 뭐가 많이 뜨는데 우리가 필요한 부분은 `<bstopid>`다.
->> ![image](https://github.com/user-attachments/assets/2dc2bff3-4fe6-49e3-913a-c4d59f8a1328)
+>> 뭐가 많이 뜨는데 우리가 필요한 부분은 `<bstopid>`와 `<lineid>`다.
+>> ![image](https://github.com/user-attachments/assets/adff8878-6ad5-45b0-9d80-30b6bbc8795b)
 >>
 >> `<bstopid>180750201</bstopid>`에서 알아낸 정류장 ID는 180750201 이다.
+>>
+>> `<lineid>5200022000</lineid>` 에서 알아낸 노선 ID는 5200022000 이다.
 >> 
->> 이것을 코드의 `StopID`부분에 적으면 된다.
+>> 이것을 코드의 `StopID`와 `lineid`부분에 적으면 된다.
+ #### 이런 식으로 자신이 원하는 노선 ID와 정류장 ID를 설정하면 된다.
+
+
+ # JSON 파일을 수정해서 마음대로 차량정보 수정하는 법
+
+ > ## 1.
