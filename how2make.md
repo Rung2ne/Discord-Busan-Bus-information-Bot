@@ -17,16 +17,14 @@
 >> 3. 들어가면 활용신청 상세기능정보가 보일 것이다.
 >>
 >> ![image](https://github.com/user-attachments/assets/574ead09-b807-4777-a002-fe35d11ad3d1)
-
-> ## 3. 정류소 ID 알아내기
-> 
->> 1. 그 중에 정류소정보 조회의 확인을 누르고 정보를 입력한다.
+>> 
+>> 4. 그 중에 정류소 도착정보 조회(ARS 번호)의 확인을 누르고 정보를 입력한다.
 >>
 >> ![image](https://github.com/user-attachments/assets/59e42464-7581-4809-a390-5281a1f55328)
 >> 
 >> 네이버지도로 경성대학교입구의 정류장을 검색해본 결과 ARS번호는 07010이다.
 >>
->> ![image](https://github.com/user-attachments/assets/26490393-322e-477a-a8a1-476ef7f70ae0)
+>> ![image](https://github.com/user-attachments/assets/745fa29b-b2ba-4b68-a060-1bc4e2e62651)
 >>
 >> 2. 정보를 입력하고 미리보기를 누르면 XML파일이 나타날 것이다.
 >> 뭐가 많이 뜨는데 우리가 필요한 부분은 `<bstopid>`다.
