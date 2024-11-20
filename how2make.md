@@ -1,5 +1,8 @@
 # 실행하는 데에 필요한 노선ID, 정류장ID 등을 얻는 법
 
+> API 발급받기
+![부산버스정보시스템 공공데이터포털](https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15092750)
+
 ![image](https://github.com/user-attachments/assets/592703da-2016-4f6a-8dcf-0bdf6fba36bb)
 
 
