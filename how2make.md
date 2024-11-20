@@ -4,7 +4,7 @@
 >
 > https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15092750
 
-> ## 2. 정류소 ID 알아내기
+> ## 2. 노선 ID와 정류소 ID 공통사항
 >
 >> 1. 마이페이지에 들어간다.
 >>
@@ -17,8 +17,10 @@
 >> 3. 들어가면 활용신청 상세기능정보가 보일 것이다.
 >>
 >> ![image](https://github.com/user-attachments/assets/574ead09-b807-4777-a002-fe35d11ad3d1)
->>
->> 4. 그 중에 정류소정보 조회의 확인을 누르고 정보를 입력한다.
+
+> ## 3. 정류소 ID 알아내기
+> 
+>> 1. 그 중에 정류소정보 조회의 확인을 누르고 정보를 입력한다.
 >>
 >> ![image](https://github.com/user-attachments/assets/59e42464-7581-4809-a390-5281a1f55328)
 >> 
@@ -26,9 +28,10 @@
 >>
 >> ![image](https://github.com/user-attachments/assets/26490393-322e-477a-a8a1-476ef7f70ae0)
 >>
->> 5. 정보를 입력하고 미리보기를 누르면 XML파일이 나타날 것이다.
+>> 2. 정보를 입력하고 미리보기를 누르면 XML파일이 나타날 것이다.
 >> 뭐가 많이 뜨는데 우리가 필요한 부분은 `<bstopid>`다.
 >> ![image](https://github.com/user-attachments/assets/2dc2bff3-4fe6-49e3-913a-c4d59f8a1328)
 >>
 >> `<bstopid>180750201</bstopid>`에서 알아낸 정류장 ID는 180750201 이다.
-
+>> 
+>> 이것을 코드의 `StopID`부분에 적으면 된다.
