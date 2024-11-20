@@ -77,8 +77,8 @@ def parse_bus_info(xml_data, bus_number):
         return "\n\n".join(buses_info)
     return f"🚌 {bus_number}번 버스 정보를 찾을 수 없습니다."
 
-# 경여중 22번 및 27번 버스 도착 정보
-@interactions.slash_command(name="경여중", description="졍남여중입구 정류장의 버스 도착 정보를 확인합니다.")
+# 22번 및 27번 버스 도착 정보
+@interactions.slash_command(name="버스정보", description="경성대학교입구 정류장의 버스 도착 정보를 확인합니다.")
 async def 경여중(ctx: interactions.SlashContext):
     await ctx.defer()
     api_urls = [BUS_API_URL_22, BUS_API_URL_27]
