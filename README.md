@@ -44,6 +44,8 @@
  #### 이런 식으로 자신이 원하는 노선 ID와 정류장 ID를 설정하면 된다.
 
 
- # JSON 파일을 수정해서 마음대로 차량정보 수정하는 법
+# 차량 설명 바꾸는 법
 
- > ## 1.
+> ## bus_car_info.json을 열고 아래의 양식으로 수정한다.
+> 
+> ![image](https://github.com/user-attachments/assets/d917cb78-4b8b-428e-9af6-c86102061e1c)
